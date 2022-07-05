@@ -6,19 +6,19 @@ DocMeta.setdocmeta!(MathepiaData, :DocTestSetup, :(using MathepiaData); recursiv
 makedocs(;
     modules=[MathepiaData],
     authors="Pengfei Song",
-    repo="https://github.com/Song921012/MathepiaData.jl/blob/{commit}{path}#{line}",
+    repo="https://github.com/Mathepia/MathepiaData.jl/blob/{commit}{path}#{line}",
     sitename="MathepiaData.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://Song921012.github.io/MathepiaData.jl",
-        assets=String[],
+        canonical="https://Mathepia.github.io/MathepiaData.jl",
+        assets=String[]
     ),
     pages=[
         "Home" => "index.md",
-    ],
+    ]
 )
 
 deploydocs(;
-    repo="github.com/Song921012/MathepiaData.jl",
-    devbranch="main",
+    repo="github.com/Mathepia/MathepiaData.jl",
+    devbranch="main"
 )
