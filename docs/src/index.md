@@ -4,7 +4,7 @@ CurrentModule = MathepiaData
 
 # MathepiaData
 
-Documentation for [MathepiaData](https://github.com/Mathepia/MathepiaData.jl).
+Documentation for [MathepiaData](https://github.com/JuliaEpi/MathepiaData.jl).
 
 ```@index
 ```
